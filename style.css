@@ -675,7 +675,7 @@ body::-webkit-scrollbar{
     /* Your styles for small screens go here */
     
 .nav {
-    height: 80px;
+    height: 200px;
     width: 100%;
     background-color: burlywood;
     display: flex;
@@ -692,7 +692,8 @@ body::-webkit-scrollbar{
 }
 
 .nav .links {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
 
